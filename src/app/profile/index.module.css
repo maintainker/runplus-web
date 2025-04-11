@@ -1,0 +1,217 @@
+.container {
+  background-color: #ffffff;
+  color: #333333;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", sans-serif;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
+
+.backButton {
+  margin-right: 16px;
+  color: #333333;
+}
+
+.headerTitle {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.accountInfo {
+  padding: 12px 16px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accountEmail {
+  font-size: 14px;
+  color: #666666;
+  font-weight: 500;
+}
+
+.section {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menuItem:last-child {
+  border-bottom: none;
+}
+
+.menuContent {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.iconCircle {
+  width: 48px;
+  height: 48px;
+  background-color: #e9ecf4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.stravaIcon {
+  color: #fc5200;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.iconContainer {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.deviceIcon {
+  color: #666666;
+}
+
+.menuTitle {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.menuSubtitle {
+  font-size: 14px;
+  color: #666666;
+}
+
+.menuDescription {
+  font-size: 13px;
+  color: #666666;
+  margin-top: 4px;
+  max-width: 80%;
+}
+
+.menuValue {
+  color: #666666;
+  font-size: 14px;
+  text-align: right;
+}
+
+.chevron {
+  color: #999999;
+}
+
+.familyPlanContainer {
+  margin: 0 16px 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.familyPlanContent {
+  padding: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.familyPlanBadge {
+  background-color: #fc5200;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.familyPlanTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.familyPlanSubtitle {
+  color: #444444;
+}
+
+.swooshDecoration {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 66%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    transparent 10%,
+    rgba(252, 82, 0, 0.1) 100%
+  );
+}
+
+.preferencesHeader {
+  padding: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666666;
+  background-color: #f8f8f8;
+}
+
+.newBadge {
+  background-color: #fc5200;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e5e5;
+  padding: 8px 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #666666;
+  width: 20%;
+}
+
+.activeNavItem {
+  color: #fc5200;
+}
+
+.navIcon {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.navLabel {
+  font-size: 12px;
+}
